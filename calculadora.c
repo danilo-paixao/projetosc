@@ -32,5 +32,6 @@ int main(int argc, char *argv[]) {
             printf("Operação inválida!");
             return 0;
     }
+    printf("Resultado: %d\n", c);
     return 0;
 }
