@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 
-int main{
+int main(int argc, char *argv[]){
     int a=0,b=0,c=0;
     char op;
     printf("Digite o primeiro numero: ");
@@ -26,7 +26,7 @@ int main{
             c=a/b;
             break;
         case '^':
-            c=pow(a,b);
+            c=math.pow(a,b);
             break;
         default:
             printf("Operacao invalida");
